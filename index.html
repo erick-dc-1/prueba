@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title>Servicio de Mantenimiento de Computadoras</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+
+
+
+<body>
+
+  <header>
+
+    <h1>TECNODOC</h1>
+  
+  </header>
+
+  <div class="main-content">
+  <section id="botones">
+    <a href="servicios.html"><button class="button">Servicios</button></a>
+    <a href="contacto.html"><button class="button">Contacto</button></a>
+    <a href="terminos.html"><button class="button">Términos y Condiciones</button></a>
+    <a href="tarjeta.html"><button class="button">Tarjeta de Presentación</button></a>
+  </section> 
+
+
+<h1></h1>
+
+<div class="content box">
+ 
+  <section id="preventivo">
+  <div class="content">  
+    <h2 class="box-title" id="preventivo-title">Importancia del Mantenimiento Preventivo</h2>
+  <div class="box-content" id="preventivo-content">
+
+  <p>El mantenimiento preventivo es crucial para garantizar un funcionamiento óptimo de tu computadora y evitar problemas futuros. Algunas razones por las cuales es importante son:</p>
+  <h3>Prevención de problemas</h3>
+  <p>El mantenimiento preventivo ayuda a identificar y solucionar problemas potenciales antes de que se conviertan en fallas graves. Esto ayuda a evitar interrupciones y pérdidas de productividad.</p>
+  
+    <h3>Optimización del rendimiento</h3>
+    <p>Al realizar tareas como limpieza de archivos temporales, desfragmentación del disco duro y actualización de software, se mejora el rendimiento general de la computadora.</p>
+  
+    <h3>Prolongación de la vida útil</h3>
+    <p>El mantenimiento preventivo reduce el desgaste y el deterioro de los componentes, lo que prolonga la vida útil de la computadora y evita la necesidad de reemplazarla con frecuencia.</p>
+
+    <h3>Seguridad mejorada</h3>
+    <p>Mantener el software actualizado y aplicar medidas de seguridad ayuda a proteger la computadora contra amenazas cibernéticas, como virus y malware.</p>
+ 
+    <h3>Ahorro de costos a largo plazo</h3>
+    <p>Al prevenir problemas y mantener la computadora en buen estado, se reducen los costos de reparación y reemplazo de componentes.</p>
+<div class="image-wrapper">
+  <img src="preventivo.jpg" alt="Mantenimiento preventivo" class="image">
+  </div>
+      </div>
+  </div>
+</section>
+</div>
+  <h1></h1>
+  <div class="content box">
+    
+<section id="correctivo" class="clearfix">
+  <div class="content">
+    <h2 class="box-title" id="correctivo-title">Importancia del Mantenimiento Correctivo</h2>
+    <div class="box-content" id="correctivo-content">
+
+      <p>Aunque el mantenimiento preventivo es esencial, a veces los problemas ocurren y se necesita mantenimiento correctivo. Algunas razones para su importancia son:</p>
+
+      <h3>Reparación de fallas:</h3>
+      <p>El mantenimiento correctivo se ocupa de solucionar problemas y averías que ya han ocurrido en la computadora.</p>
+
+      <h3>Restauración de funcionalidad:</h3>
+      <p>Cuando la computadora experimenta problemas, el mantenimiento correctivo se enfoca en restaurar la funcionalidad normal del sistema.</p>
+
+      <h3>Respaldo de datos:</h3>
+      <p>En situaciones críticas, el mantenimiento correctivo puede implicar la recuperación de datos importantes de discos duros dañados o sistemas corruptos.</p>
+
+      <h3>Identificación de causas subyacentes:</h3>
+      <p>Al investigar y solucionar problemas, el mantenimiento correctivo puede ayudar a identificar las causas subyacentes de los fallos para evitar su recurrencia en el futuro.</p>
+
+      <div class="image-wrapper">
+          <img src="correctivo.jpg" alt="Mantenimiento correctivo" class="image">
+      </div>
+  </div>
+  </div>
+</section>
+</div>
+<h1></h1>
+
+<div class="content box">
+<section id="infobasic" class="clearfix">
+  <div class="content">
+    <h2 class="box-title" id="infobasic-title">Información Básica sobre Computación</h2>
+  <div class="box-content" id="infobasic-content">
+      <h2></h2>
+      <p>Si eres nuevo en el mundo de la computación, aquí hay algunos conceptos básicos que debes conocer:</p>
+
+      <h3>Sistema operativo</h3>
+      <p>Es el software que permite a los usuarios interactuar con la computadora y administrar recursos como archivos, programas y dispositivos.</p>
+
+      <h3>Hardware</h3>
+      <p>Son los componentes físicos de una computadora, como la CPU, la memoria RAM, el disco duro y el monitor.</p>
+
+      <h3>Software</h3>
+      <p>Son los programas y aplicaciones que se ejecutan en una computadora para realizar tareas específicas.</p>
+
+      <h3>Redes</h3>
+      <p>Las redes permiten la comunicación y el intercambio de datos entre computadoras y otros dispositivos.</p>
+
+      <h3>Seguridad informática</h3>
+      <p>La seguridad informática se refiere a la protección de sistemas y datos contra amenazas como virus, malware y ataques cibernéticos.</p>
+
+      <h3>Respaldo de datos</h3>
+      <p>Es el proceso de crear copias de seguridad de archivos y datos importantes para protegerlos contra pérdidas debido a fallas del sistema o errores humanos.</p>
+
+      <div class="image-wrapper">
+          <img src="computacion.jpg" alt="Información básica sobre computación" class="image">
+      </div>
+  </div>
+  </div>
+</section>
+  </div>
+</div>
+
+<script>
+// Encapsular en IIFE
+(function() {
+
+// Utilizar constantes para los selectores
+const boxTitles = document.querySelectorAll('.box-title');
+const boxContents = document.querySelectorAll('.box-content');
+
+// Recorrer con forEach
+boxTitles.forEach(title => {
+
+  // Manejar evento click con addEventListener
+  title.addEventListener('click', () => {
+    
+    const content = title.nextElementSibling; 
+
+    // Agregar transición suave
+    content.style.transition = 'height 0.5s ease';  
+
+    // Toggle para abrir/cerrar
+    if(content.clientHeight > 0) {
+      content.style.height = 0;
+    } else {
+      content.style.height = content.scrollHeight + 'px';
+    }
+
+  });
+
+});
+
+})();
+</script>
+
+
+
+  <footer>
+    <p>&copy; 2023 TECNODOC. Todos los derechos reservados y derechos de autor.</p>
+  </footer>
+</body>
+</html>
