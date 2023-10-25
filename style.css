@@ -1,0 +1,574 @@
+body {
+  background: url("https://wallpapercave.com/wp/wp3519770.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+/* Encabezado con fondo degradado de negro a blanco */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #5a4f4f, #000000); /* Fondo degradado de negro a blanco */
+  color: var(--secondary-color);
+  padding: 5px;
+  text-align: center;
+}
+
+
+/* Agrega margen superior al contenido principal */
+.main-content {
+  margin-top: 80px; /* Ajusta el valor según sea necesario */
+  margin-bottom: 50px;
+}
+
+
+
+h1 {
+  font-style: inherit;
+  font-size: 30px; /* Cambia el valor a 48px o el tamaño que desees */
+  font-weight: bold;
+  letter-spacing: 15px;
+  text-align: center;
+  color: #cc1818bb;
+}
+
+
+
+
+h4 {
+  font-size: 16px;
+  letter-spacing: 1px; 
+  text-align: center; 
+  color: rgba(0, 0, 0, 0.767);
+}
+
+
+#botones {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.button-container {
+  display: inline-block; /* Hace que los botones sean bloques en línea */
+  margin: 10px; /* Ajusta el margen entre los botones */
+}
+
+.button {
+  background: none;
+  border: none;
+  padding: 10px 20px; /* Añade un poco de espacio alrededor del texto */
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  color: #bdbdbd;
+}
+
+.button:hover {
+  color: #ff6363;
+}
+
+a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+#preventivo {
+  max-width: 900px; 
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  border-radius: 10px;
+  margin: 0 auto; 
+  background-color: rgba(248, 248, 248, 0.636);
+  text-align: center;
+  cursor: pointer;
+}
+
+#preventivo:hover {
+  background-color: #fff; 
+}
+
+.content {
+  font-family: Arial, sans-serif;  
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Aumentado el margen inferior para dar más espacio entre el título y el contenido */
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px; /* Reducido el margen superior para acercar el título al contenido */
+  text-align: left;
+} 
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;  
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente dentro de su contenedor */
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+
+
+
+
+#correctivo {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#correctivo:hover {
+  background-color: #fff; 
+}
+
+.content {
+  font-family: Arial, sans-serif
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Aumentado el margen inferior para dar más espacio entre el título y el contenido */
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px; /* Reducido el margen superior para acercar el título al contenido */
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente dentro de su contenedor */
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+
+
+
+#infobasic {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+#infobasic:hover {
+  background-color: #fff; 
+}
+
+.content {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Aumentado el margen inferior para dar más espacio entre el título y el contenido */
+}
+
+p {
+  line-height: 2;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Centra la imagen horizontalmente dentro de su contenedor */
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding:  5px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#servicios {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.636);
+  text-align: center;
+}
+
+#servicios h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+#servicios p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+
+#mantenimientocorrectivo {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.636);
+  text-align: center;
+}
+
+#mantenimientocorrectivo h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+#mantenimientocorrectivo p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#diagnosticoysolucion {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.636);
+  text-align: center;
+}
+
+#diagnosticoysolucion h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+#diagnosticoysolucion p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#actualizacion {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.636);
+  text-align: center;
+}
+
+#actualizacion h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+#actualizacion p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#limpieza {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.636);
+  text-align: center;
+}
+
+#limpieza h2 {
+  color: #000000;
+  font-size: 24px;
+}
+
+#limpieza p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+ul{
+  text-align: left;
+}
+
+#formulario {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(248, 248, 248, 0.636);
+}
+
+#formulario h2 {
+  text-align: center;
+  margin-bottom: 30px;  
+}
+
+#formulario label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#formulario input, 
+#formulario textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#formulario input[type="submit"] {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formulario input[type="submit"]:hover {
+  background-color: #3b3b3b;
+}
+
+
+#contacto {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(248, 248, 248, 0.636);
+  border-radius: 5px;
+}
+
+#contacto p {
+  font-size: 18px;
+} 
+
+#contacto ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contacto li {
+  margin-bottom: 10px;
+}
+
+#contacto a.button1 {
+  display: inline-flex;
+  align-items: center; 
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+#contacto a.button1:hover {
+  background-color: #eee; 
+}
+
+#contacto img {
+  margin-right: 5px;
+  
+}
+
+#terminos {
+  max-width: 900px;  
+  padding: 20px 70px; /* Agregado para dar espacio al contenido dentro del div */
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: rgba(248, 248, 248, 0.636);
+  text-align: center;
+}
+
+#terminos h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#terminos h3 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+}
+
+#terminos p {
+  line-height: 1.5;
+  margin-bottom: 15px; 
+}
+
+#terminos ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+#terminos li {
+  margin-bottom: 8px;
+}
+
+
+
+#tarjeta {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* En lugar de "space-between" para centrar las imágenes */
+  align-items: center; /* Para centrar verticalmente las imágenes */
+  text-align: center; /* Para centrar el contenido dentro de #tarjeta */
+}
+
+#tarjeta h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#tarjeta p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#tarjeta img {
+  flex: 0 0 48%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px; /* Espacio alrededor de las imágenes */
+}
+
+#tarjeta img:hover {
+  opacity: 0.8;
+}
+
+#tarjeta ul {
+  padding-left: 0;
+  font-size: 18px;
+}
+
+#tarjeta li {
+  margin: 10px 0;
+}
+
+.box-content {
+  overflow:hidden;
+  height: 0;
+}
+
+.box-content.open {
+  height: auto;
+}
+.overlay {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay img {
+  max-width: 60%;
+  max-height: 80%;
+  box-shadow: 0 0 10px #fff;
+}
+/* Hace que el contenedor principal sea responsive */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+
+/* Hace que los videos sean responsive */
+.video {
+  width: 100%;
+  height: auto;
+}
+
+/* Hace que los elementos de texto se ajusten */
+p, h1, h2, h3 {
+  overflow-wrap: break-word;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}

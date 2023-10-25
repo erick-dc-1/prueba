@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tarjeta de Presentación - Servicio de Mantenimiento de Computadoras</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>SOBRE MÍ</h1>
+  </header>
+  <div class="main-content">
+    <section id="botones">
+      <a href="index.html"><button class="button">Inicio</button></a>
+      <a href="servicios.html"><button class="button">Servicios</button></a>
+      <a href="contacto.html"><button class="button">Contacto</button></a>
+      <a href="terminos.html"><button class="button">Términos y Condiciones</button></a>
+    </section>
+
+    <section id="tarjeta">
+      <img src="foto_perfil.jpg" alt="Foto de Erick">
+      <h2>Erick Enrique</h2>
+      <p>Técnico en Mantenimiento de Computadoras</p>
+      <p>¡Hola! Soy Erick, un apasionado técnico en mantenimiento de computadoras con más de 5 años de experiencia en el campo. Me dedico a brindar servicios de mantenimiento preventivo y correctivo para computadoras de escritorio y laptops, ayudando a mantener tus dispositivos en óptimas condiciones y solucionar cualquier problema que puedas tener.</p>
+
+      <p>Ofrezco servicios como:</p>
+
+      <ul>
+        <li>Limpieza y optimización de software</li> <!-- Corregido aquí -->
+        <li>Actualización de sistemas operativos</li> <!-- Corregido aquí -->
+        <li>Mantenimiento de hardware</li> <!-- Corregido aquí -->
+        <li>Reparación de computadoras</li> <!-- Corregido aquí -->
+        <li>Configuración de redes</li> <!-- Corregido aquí -->
+        <li>Respaldo y recuperación de datos</li> <!-- Corregido aquí -->
+      </ul>
+
+      <p>Estoy comprometido en proporcionar un servicio confiable y de calidad para asegurarme de que tus computadoras funcionen de manera eficiente y sin problemas.</p>
+
+      <img src="servicio1.jpg" alt="certificado 1">
+      <h1></h1>
+      <img src="servicio2.jpg" alt="certificado 2">
+      <h1></h1>
+      <img src="servicio3.jpg" alt="certificado 3">
+      <h1></h1>
+      <img src="servicio4.jpg" alt="certificado 4">
+      <p>No dudes en contactarme para cualquier consulta, solicitud de servicio o asesoramiento. Estoy aquí para ayudarte con tus necesidades de mantenimiento de computadoras.</p>
+
+    </section>
+  </div>
+  <script>
+    // Obtener imágenes
+    const images = document.querySelectorAll('img');
+
+    // Variables globales
+    let overlay;
+    let closeBtn;
+
+    // Función para cerrar 
+    const closeImage = () => {
+      overlay.remove();
+    }
+
+    // Cerrar con ESC
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        closeImage();
+      }
+    });
+
+    // Recorrer imágenes
+    images.forEach(image => {
+
+      image.addEventListener('click', () => {
+
+        // Crear overlay
+        overlay = document.createElement('div');
+        overlay.classList.add('overlay');
+
+        // Crear botón de cerrar
+        closeBtn = document.createElement('span');
+        closeBtn.textContent = 'X';
+        closeBtn.classList.add('close');
+
+        // Añadir imagen y botón al overlay
+        overlay.appendChild(image);
+        overlay.appendChild(closeBtn);
+
+        // Mostrar overlay
+        document.body.appendChild(overlay);
+
+        // Cerrar con click en X
+        closeBtn.onclick = closeImage;
+
+      });
+
+    });
+
+  </script>
+  <footer>
+    <p>&copy; 2023 TECNODOC. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
